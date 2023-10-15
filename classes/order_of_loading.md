@@ -300,8 +300,8 @@ public class Child extends Parent {
     }
 
     private static String printAndGetStringConst() {
-        System.out.println("CONST initialization");
-        return "CONST";
+        System.out.println("Child_CONST initialization");
+        return "Child_CONST";
     }
 }
 ```
@@ -321,7 +321,7 @@ public class ExampleParentChildInitOreder {
 ```java
 Parent_CONST initialization
 Parent static code block
-Child CONST initialization
+Child_CONST initialization
 Child static code block
 Parent non static code block
 Parent constructor
